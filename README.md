@@ -1,7 +1,7 @@
 ___
 # Agent based Model for Micro-Mobility in Sri Lankan Cities
 ___
-## Aim
+## Aim :
 To explore an Agent-Based Model for micro-mobility in Sri Lankan cities with different 
 geographical characteristics and transport infrastructure (i.e., Colombo, Galle, Kandy, 
 Kurunegala), with a focus on how different policy decisions and environmental variables affect 
