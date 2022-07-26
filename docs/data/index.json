@@ -1,34 +1,32 @@
 {
-    "team": [
-        {
-            "name": "Nimashi Uthpala",
-            "email": "e@en16039g.pdn.ac.lk",
-            "eNumber": "E/16/039"
-        },
-        {
-            "name": "Naduni Hansika",
-            "email": "e16126@eng.pdn.ac.lk",
-            "eNumber": "E/16/126"
-        },
-        {
-            "name": "Sachini Dissanayake",
-            "email": "e16087@eng.pdn.ac.lk",
-            "eNumber": "E/16/087"
-        }
-    ],
-    "supervisors": [
-        {
-            "name": "Dr. Damayanthi Herath",
-            "email": "damayanthiherath@eng.pdn.ac.lk"
-        },
-        {
-            "name": "Dr. Rajith Vidanaarachchi",
-            "email": "rajith.vidanaarachchi@unimelb.edu.au"
-        }
-        {
-            "name": "Dr. Samal Dharmarathna",
-            "email": "samal@eng.pdn.ac.lk"
-        }
-    ],
-     "tags": ["Agent Based Model", "Micro Mobility"]
+	"team": [{
+			"name": "Nimashi Uthpala",
+			"email": "e16039@eng.pdn.ac.lk",
+			"eNumber": "E/16/039"
+		},
+		{
+			"name": "Naduni Hansika",
+			"email": "e16126@eng.pdn.ac.lk",
+			"eNumber": "E/16/126"
+		},
+		{
+			"name": "Sachini Dissanayake",
+			"email": "e16087@eng.pdn.ac.lk",
+			"eNumber": "E/16/087"
+		}
+	],
+	"supervisors": [{
+			"name": "Dr. Damayanthi Herath",
+			"email": "damayanthiherath@eng.pdn.ac.lk"
+		},
+		{
+			"name": "Dr. Rajith Vidanaarachchi",
+			"email": "rajith.vidanaarachchi@unimelb.edu.au"
+		},
+		{
+			"name": "Dr. Samal Dharmarathna",
+			"email": "samal@eng.pdn.ac.lk"
+		}
+	],
+	"tags": ["Agent Based Model", "Micro Mobility"]
 }
