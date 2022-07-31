@@ -36,11 +36,6 @@ title: Agent Based Model for Micro Mobility in Sri Lankan Cities
 
 ---
 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png)
-
-
 ## Abstract
 
 ## Related works
