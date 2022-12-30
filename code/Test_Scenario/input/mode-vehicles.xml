@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v1.0.xsd">
+	<!-- <vehicleType id="car">
+		<length meter="4.5"/>
+		<width meter="1.76"/>
+		<maximumVelocity meterPerSecond="16.67"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicleType id="truck">
+		<length meter="12.5"/>
+		<width meter="2.5"/>
+		<maximumVelocity meterPerSecond="11.11"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="0.5"/>
+	</vehicleType>
+    <vehicleType id="van">
+		<length meter="4.5"/>
+		<width meter="1.76"/>
+		<maximumVelocity meterPerSecond="16.67"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="2.5"/>
+	</vehicleType>
+    <vehicleType id="bus">
+		<length meter="12.5"/>
+		<width meter="2.85"/>
+		<maximumVelocity meterPerSecond="11.11"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="10.0"/>
+	</vehicleType>
+    <vehicleType id="bike">
+		<length meter="1.75"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="11.11"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="0.5"/>
+	</vehicleType>
+    <vehicleType id="threewheel">
+		<length meter="2.5"/>
+		<width meter="1.73"/>
+		<maximumVelocity meterPerSecond="16.67"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType> -->
+    <vehicleType id="car">
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="16.67"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="1.0"/>
+	</vehicleType>
+	<vehicleType id="bicycle">
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="4.17"/>
+		<accessTime secondsPerPerson="1.0"/>
+		<egressTime secondsPerPerson="1.0"/>
+		<doorOperation mode="serial"/>
+		<passengerCarEquivalents pce="0.25"/>
+	</vehicleType>
+</vehicleDefinitions>
+

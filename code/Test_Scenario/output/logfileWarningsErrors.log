@@ -1,0 +1,44 @@
+2022-12-31T00:23:52,960  WARN PrepareForSimImpl:220 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon.
+2022-12-31T00:23:53,009  WARN RandomizingTimeDistanceTravelDisutilityFactory:112 There will be no routing randomness. The randomization of the travel disutility requires the monetary distance rate to be different than zero. Continuing anyway.
+2022-12-31T00:23:53,014  WARN RandomizingTimeDistanceTravelDisutilityFactory:117 There will be no routing randomness. The randomization of the travel disutility requires the travel time cost rate to be different than zero. Continuing anyway.
+2022-12-31T00:23:53,221  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=1; network file flow cap/h=4000.0; max flow from fdiag/h=3076.9230769230767
+2022-12-31T00:23:53,223  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=1; number of lanes in network file=2.0; number of lanes from fdiag=2.6
+2022-12-31T00:23:53,223  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,223  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 53.19941458648133 to 69.15923896242573
+2022-12-31T00:23:53,224  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=100; network file flow cap/h=4000.0; max flow from fdiag/h=3200.0
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=100; number of lanes in network file=2.0; number of lanes from fdiag=2.5
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 25.70875723633416 to 32.1359465454177
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=101; network file flow cap/h=8000.0; max flow from fdiag/h=6400.0
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=101; number of lanes in network file=4.0; number of lanes from fdiag=5.0
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 5.277062485821551 to 6.59632810727694
+2022-12-31T00:23:53,225  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=102; network file flow cap/h=8000.0; max flow from fdiag/h=6400.0
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=102; number of lanes in network file=4.0; number of lanes from fdiag=5.0
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 136.82418277724753 to 171.0302284715594
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=103; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=103; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,226  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 8.15351281988767 to 10.191891024859586
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=104; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=104; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 8.15351281988767 to 10.191891024859586
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=105; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=105; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,227  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 25.853470293639102 to 32.31683786704888
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=106; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=106; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 25.853470293639102 to 32.31683786704888
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=107; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,228  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=107; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:435 The flow capacity will be reduced. See link attribute 'maxInflowUsedInQsim' written into the output network.
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 5.6202806121003155 to 7.025350765125395
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:421 max flow from fdiag < flow cap in network file; linkId=108; network file flow cap/h=2000.0; max flow from fdiag/h=1600.0
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:425 number of lanes from fdiag > number of lanes in network file; linkId=108; number of lanes in network file=1.0; number of lanes from fdiag=1.25
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:430  Future occurences of this logging statement are suppressed.
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 5.6202806121003155 to 7.025350765125395
+2022-12-31T00:23:53,229  WARN QueueWithBuffer:538 storage capacity not sufficient for holes; increasing from 626.9161120168054 to 783.6451400210068

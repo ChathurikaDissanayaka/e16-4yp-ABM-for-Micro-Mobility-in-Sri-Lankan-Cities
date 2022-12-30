@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plans SYSTEM "http://www.matsim.org/files/dtd/plans_v4.dtd">
+<plans>
+
+	<person id="1">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:10" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="2">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="05:59" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="02:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="3">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="05:58:30" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="01:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="4">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="05:59:30" />
+			<leg mode="bicycle"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="02:30" />
+			<leg mode="bicycle"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="5">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="06:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="6">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="bicycle"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:30" />
+			<leg mode="bicycle"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="7">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="8">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="9">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+
+	<person id="10">
+		<plan>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" end_time="06:00" />
+			<leg mode="car"> </leg>
+			<act type="w" x="7479133.430336533" y="1.134529238389402E7" link="8" dur="00:30" />
+			<leg mode="car"> </leg>
+			<act type="h" x="7478196.0531282555" y="1.1344543564273726E7" link = "99" />
+		</plan>
+	</person>
+</plans>
