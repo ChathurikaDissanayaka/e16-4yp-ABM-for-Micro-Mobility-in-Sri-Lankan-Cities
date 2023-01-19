@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE network SYSTEM "http://matsim.org/files/dtd/network_v1.dtd">
+<network>
+<nodes>
+<node x="-100.0" y="0.0" id="01" />
+<node x="0.0" y="0.0" id="1" />
+<node x="3000.0" y="0.0" id="2" />
+<node x="6000.0" y="1000.0" id="3" />
+<node x="8000.0" y="1000.0" id="4" />
+<node x="10000.0" y="1500.0" id="5" />
+
+<node x="-100.0" y="100.0" id="02" />
+<node x="0.0" y="100.0" id="6" />
+<node x="3000.0" y="100.0" id="7" />
+<node x="6000.0" y="1100.0" id="8" />
+<node x="8000.0" y="1100.0" id="9" />
+<node x="10000.0" y="1600.0" id="10" />
+</nodes>
+
+<links capperiod="10:00:00" effectivecellsize="7.5" effectivelanewidth="3.75">
+<link id="01" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1000" to="1" from="01" />
+<link id="1" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1000" to="2" from="1" />
+<link id="2" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1100" to="3" from="2" />
+<link id="3" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1000" to="4" from="3" />
+<link id="4" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1100" to="5" from="4" />
+<link id="5" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1000" to="4" from="5" />
+<link id="6" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1100" to="3" from="4" />
+<link id="7" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1000" to="2" from="3" />
+<link id="8" modes="car,bicycle" permlanes="1" capacity="1000" freespeed="16.666667" length="1100" to="1" from="2" />
+
+<link id="02" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1000" to="6" from="02" />
+<link id="9" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1000" to="7" from="6" />
+<link id="10" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1100" to="8" from="7" />
+<link id="11" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1000" to="9" from="8" />
+<link id="12" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1100" to="10" from="9" />
+<link id="13" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1000" to="9" from="10" />
+<link id="14" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1100" to="8" from="9" />
+<link id="15" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1000" to="7" from="8" />
+<link id="16" modes="bicycle" permlanes="1" capacity="500" freespeed="12.5" length="1100" to="6" from="7" />
+
+
+
+</links>
+</network>
