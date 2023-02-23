@@ -1,33 +1,6 @@
 ___
 # Agent Based Model for Micro-Mobility in Sri Lankan Cities
 ___
-## Aim :
-To explore an Agent-Based Model for micro-mobility in Sri Lankan cities with different 
-geographical characteristics and transport infrastructure (i.e., Colombo, Galle, Kandy, 
-Kurunegala), with a focus on how different policy decisions and environmental variables affect 
-various response variables (energy consumption, travel times, congestion, air quality and cost).
-
-## Background and Short Description of the project:
-The rapid urbanization and urban spread in developing countries create a huge number of 
-challenges urban planners have to face. For example, congestion has become a major issue in Sri 
-Lanka and caused huge economic losses, wastage of fuels, and air pollution. It increases stress and 
-frustration among motorists and passengers. Unsafe driving is the main impact of traffic jams 
-which may lead to road mishaps and hence injuries. Traffic jams can also have a negative impact 
-on the mind of a person. Tackling such an issue requires huge improvements in the city's 
-organization and infrastructure. 
-
-Micro-mobility is increasingly recognized as a transformative solution for sustainable 
-urban transport, promising its potential to increase flexibility, energy efficiency, noise reduction, 
-low demand for parking space, and no exhaust pollution. These devices, which include bicycles, 
-scooters, skateboards, segways, and hoverboards can be a positive force in disrupting private 
-vehicle use, especially for short-distance travel. It is necessary to have a proper case study before 
-applying micro-mobility in Sri Lankan cities since it can cause traffic safety issues and operations 
-as it increases the number of already complex interactions between modes. 
-
-In this case, AgentBased Models (ABMs) can be used as a unique solution to model demand and supply variations in large transport networks and examine system impacts by looking at different perspectives.
-The objective of this study is to assess the most suitable ABM for simulating micromobility in Sri Lankan cities and make suggestions according to different geographical 
-characteristics of transport infrastructure for sustainable urban transport in terms of energy, health, 
-environment, and economy.
 
 ## Team
 
@@ -40,3 +13,10 @@ environment, and economy.
 - Dr. Damayanthi Herath, [email](mailto:damayanthiherath@eng.pdn.ac.lk)
 - Dr. Rajith Vidanaarachchi, [email](mailto:rajith.vidanaarachchi@unimelb.edu.au)
 -	Dr. Samal Dharmarathna, [email](mailto:samal@eng.pdn.ac.lk)
+
+## Abstract
+The rapid pace of urbanization has resulted in significant traffic congestion in urban areas worldwide. This has led to several issues, such as increased air pollution, economic losses, and fuel waste. To address these issues, it is essential to develop innovative and sustainable mobility solutions. Micro-mobility is emerging as a promising option for efficient and sustainable urban transportation, and it can be studied using agent-based models (ABMs). ABMs offer several advantages for analyzing urban transportation and sustainability, including the ability to model complex systems, explore multiple scenarios, and study the effects of individual behaviors on the system as a whole. This paper aims to investigate the impact of micro-mobility solutions on urban transportation in Sri Lanka, which is currently facing significant traffic issues. The study utilizes two ABMs created with MATSim. The first model is based on current traffic data from Kandy city and is used to identify the most congested areas and time periods. The second model is based on a simple network and focuses on introducing bicycle lanes parallel to main roads to reduce traffic congestion. The study compares the results and evaluates the impact of micro-mobility on traffic congestion. The findings of the study suggest that micro-mobility solutions, such as introducing bicycle lanes parallel to main roads, can significantly reduce traffic congestion in urban areas. The study concludes with a discussion of potential improvements to the model and future research directions. Overall, this research highlights the potential of micro-mobility in achieving sustainable outcomes in urban transportation and emphasizes the importance of utilizing ABMs for the analysis of transportation systems. 
+
+## 1. Introduction
+### hh
+#h
