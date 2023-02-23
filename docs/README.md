@@ -92,8 +92,8 @@ We replaced the number of cars that travel on non-home-based trips on Kandy city
 According to sources, 17% of trip purposes are Non-home-based other trips (NHBO) and 2% are Non-home-based education trips (NHBE). As a result, 19% of non-home-based trips were taken to replace 19% of cars with bicycles. The number of cars that have been replaced by bicycles is calculated using the Passenger Car Unit(PCU) (/cite). Based on that, one car can be replaced by two cars.
 We created four scenarios for four linked networks in order to introduce parallel bicycle lanes on the city's most congested roads.
 
-![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/kandy.png "Optional title")
-![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/kandy.png  "Optional title")
+![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/NEW01.png)
+![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/NEW02.png)
 
 To create scenarios, 100 agents were chosen, and because 19% of trips can be taken as non-based-home trips. The use of the scenarios is defined in the table below. In scenarios one and two, we attempted to run all 100 agents on a single road at the same speed for all links while varying the link speeds to demonstrate the speed variation of the road condition. The agents were given three different time frames in which they were expected to return from their trips. In scenarios three and four, we replaced 19 cars with 38 bicycles while maintaining the same conditions as in the first two scenarios and attempted to figure out how parallel bicycle lanes could be affected in order to reduce traffic congestion and how it could affect policy making.
 
