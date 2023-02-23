@@ -97,9 +97,9 @@ We created four scenarios for four linked networks in order to introduce paralle
 To create scenarios, 100 agents were chosen, and because 19% of trips can be taken as non-based-home trips. The use of the scenarios is defined in the table below. In scenarios one and two, we attempted to run all 100 agents on a single road at the same speed for all links while varying the link speeds to demonstrate the speed variation of the road condition. The agents were given three different time frames in which they were expected to return from their trips. In scenarios three and four, we replaced 19 cars with 38 bicycles while maintaining the same conditions as in the first two scenarios and attempted to figure out how parallel bicycle lanes could be affected in order to reduce traffic congestion and how it could affect policy making.
 
 |   | scenario one | | Scenario two  | Scenario three | Scenario four | 
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ------------- | ------------- | ------------- | ------------- |------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |Content Cell  | 
 
 
 ## Experiment Setup and Implementation
