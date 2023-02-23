@@ -68,7 +68,7 @@ To reproduce traffic congestion using MATSim, we need to create a simulation sce
 For the research, we chose Kandy City, Sri Lanka as the case study location. The kandy city is one of the busiest urban areas and experiences a variety of traffic types in Sri Lanka.  The types of traffic that can be seen in Kandy city, Sri Lanka include private vehicles, public transport, pedestrian traffic, tourist traffic, commercial traffic, and two- and three-wheelers. These different types of traffic can contribute to traffic congestion and flow issues, particularly during peak hours. Effective traffic management and transportation planning are important to ensure the smooth flow of traffic in Kandy city.
 To simulate city traffic, a small area of Kandy, including the city center, was chosen.
 
-![Alt text](/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/kandy.png)
+![Kandy city](/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/kandy.png)
 ### Data:
 Road network data: This includes data on the road layout, geometry, and connectivity in the study area. The road network of Kandy city is obtained from OpenStreetMap including information such as speed limits, one-way streets, and turn restrictions. In the context of transportation modeling with MATSim, OSM data can be used as input to create a detailed network of roads and other transportation infrastructure. This network can be combined with travel demand data and other inputs to simulate transportation systems and analyze traffic flow and congestion.
 
