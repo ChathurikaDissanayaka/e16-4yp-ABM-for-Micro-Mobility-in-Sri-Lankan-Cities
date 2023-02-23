@@ -96,7 +96,7 @@ We created four scenarios for four linked networks in order to introduce paralle
 
 To create scenarios, 100 agents were chosen, and because 19% of trips can be taken as non-based-home trips. The use of the scenarios is defined in the table below. In scenarios one and two, we attempted to run all 100 agents on a single road at the same speed for all links while varying the link speeds to demonstrate the speed variation of the road condition. The agents were given three different time frames in which they were expected to return from their trips. In scenarios three and four, we replaced 19 cars with 38 bicycles while maintaining the same conditions as in the first two scenarios and attempted to figure out how parallel bicycle lanes could be affected in order to reduce traffic congestion and how it could affect policy making.
 
-| | scenario one | Scenario two  | Scenario three | Scenario four | 
+| | Scenario one | Scenario two  | Scenario three | Scenario four | 
 | ------------- | ------------- | ------------- | ------------- |------------- |
 | Number of car agents| 100| 100| 81| 81  |
 | Number of Bicycle agents| 0| 0| 19x2=38 |19x2=38 | 
@@ -105,11 +105,136 @@ To create scenarios, 100 agents were chosen, and because 19% of trips can be tak
 | Avg Speed for Link 02| |40Kmh| 40Kmh| |
 | Avg Speed for Link 03| |30Kmh| 40Kmh| |
 | Avg Speed for Link 04| |45Kmh| 45Kmh| |
-## Experiment Setup and Implementation
+<!-- ## Experiment Setup and Implementation -->
 
 ## Results and Analysis
+### Results
+In this section, we present the results of simulating the
+case study in order to identify the real traffic in Kandy
+city, as well as the four different scenarios that were used
+to implement parallel bicycle lanes on the most congested
+roads. We considered the data of the CBD of Knady city as
+mentioned in the previous section and used 500 car agents
+to create the current model. To plan the trips of the vehicle
+agents, four major nodes that people use to enter the city were
+considered. All agents begin and end their journeys at one of
+these nodes. It essentially depicts how the car agents move
+through the city. The simulation can be used to track the most
+congested roads as well as the duration of the traffic jam. We
+observed the most congested links for starting and returning
+trips after running the simulation 100 times.
+
+![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/NEW01.png)
+![Alt text](https://github.com/cepdnaclk/e16-4yp-ABM-for-Micro-Mobility-in-Sri-Lankan-Cities/blob/main/docs/images/NEW02.png)
+
+Links that are highly saturated are shown in red(10% of the
+sample data) and medium saturated are in yellow. However,
+it is observed that these are not congested links, as the actual
+traffic volume in these cases may be much lower or higher than
+the actual free flow capacity. The visualization shows where
+large numbers of vehicles are moving in the network with
+the additional width setting based on the absolute volume. In
+MATSim, vehicles typically travel very close to the free-flow
+speed, unless there are more vehicles on a link than the flow capacity allows for. In such cases, the vehicles are held back
+in MATSim, resulting in a longer travel time on that link and
+thus a lower speed.
+Following the identification of congested roads, the next
+step is to introduce parallel bicycle lanes to those congested
+roads. These are the results obtained by simulating the four
+scenarios 1000 times in the MATSim tool. 
+
+| | Scenario one | Scenario two  | Scenario three | Scenario four | 
+| ------------- | ------------- | ------------- | ------------- |------------- |
+|Number of car agents| 100| 100| 81| 81|
+|Number of Bicycle agents| 0| 0| 19x2=38| 19x2=38|
+|Time taken till all the passengers reach the destination|01:03:36| 00:52:12| 01:05:11| 00:53:47|
+|Time saved due to micromobility| |00:11:24| 00:11:24| |
+|CO2 emission| 0.1t| 0.081t| 0.1t| 0.081t|
+
+he CO2 emissions are calculated using the [tool](https://co2.myclimate.org/en/car_calculators/new), assuming that each car runs on petrol. The following calculations
+show how CO2 is calculated for car agents traveling on the
+one-link network that is used for scenarios in order to compare
+the benefit over the environment.
+• CO2 emission per car = 0.001t
+• CO2 emission for 100 cars = 0.001*100 = 0.1t
+• CO2 emission for 81 cars = 0.001*81 = 0.081t
+• Reduction of CO2 emission due to reducing number of
+cars = 0.1 - 0.081 = 0.019t
+
+### Analysis
+
+In recent years, the rise of micro-mobility options such as
+bicycles and electric scooters has gained attention as a promising solution to traffic congestion, air pollution, and other
+transportation-related issues. This study aims to contribute to
+the ongoing discourse on micro-mobility by examining its
+potential impact on Sri Lankan roads using a simple road
+network comprising three links that connect four vertices. The
+experiment focused solely on cars and bicycles as the two
+transport modes, without considering parallel lanes, to simplify
+calculations.
+The results of the study showed a significant reduction
+in travel time, with a 17.707% average decrease in total
+travel time for all passengers. Furthermore, the experiment
+demonstrated an 19% reduction in CO2 emissions, suggesting
+that micro-mobility could be an effective means of reducing
+carbon emissions and improving air quality.
+However, to achieve more realistic results when comparing similar network infrastructures, several factors should be
+considered. For instance, mixed traffic should be taken into
+account, as different types of vehicles may behave differently
+on the roads, potentially affecting travel time and other outcomes. Parallelly driven vehicles, which vary in width, also
+need to be considered, as they may affect the overall road
+capacity and travel time. Road signs and traffic lights must be
+considered where necessary, as they play an essential role in
+regulating traffic flow and reducing accidents.
+Moreover, road conditions can affect travel time, and it
+is essential to factor in these variations when assessing the
+potential impact of micro-mobility. In the current study, bad
+road conditions were represented by reducing the maximum
+speed of the vehicles on the roads. However, future studies
+should capture the full range of road conditions to arrive at
+more accurate results.
+Additionally, in situations where road widening is not feasible, other practical methods must be identified to introduce
+micro-mobility to the current traffic. For example, dedicated
+bicycle lanes can be created on existing roads, or public
+transportation options can be integrated with micro-mobility
+solutions to offer a more comprehensive range of options
 
 ## Conclusion
+
+In conclusion, the results of this study suggest that micromobility options, such as bicycles, have the potential to significantly reduce travel time and CO2 emissions, particularly
+on simple road networks. However, for future studies to
+provide more realistic results and inform policy decisions, it
+is necessary to consider various factors that may impact the
+performance of micro-mobility on the roads.
+One key recommendation for future studies is to increase
+the number of vehicles traveling on the road network, as
+this would enable the identification of congested areas with
+greater accuracy. This can be accomplished using tools such
+as ”Simunto Via” by purchasing an educational or commercial
+license. Another recommendation is to include mixed traffic
+scenarios in the model, with a particular focus on adding
+three-wheelers, public transport, and motorbikes, which are
+commonly used modes of transportation in Sri Lanka.
+As the next steps of this project, we plan to calibrate this
+conceptual model with real data to identify congested roads
+in Sri Lankan cities and study the behavior and impacts of
+micro-mobility modes. With the results we obtain, we can
+make recommendations to transportation policymakers, such
+as the implementation of dedicated bicycle lanes to reduce
+road traffic congestion.
+Moreover, this research opens doors to many other research
+areas in different fields such as civil engineering, town planning, and social sciences. Based on the findings of this study,
+researchers can further explore topics such as commuters’
+behaviors, mode choice of the commuters, and the impact of
+micro-mobility in situations such as fuel price increases, bus
+fare decreases, and public transportation development.
+In summary, this study provides valuable insights into the
+potential benefits of micro-mobility in reducing travel time
+and CO2 emissions. It highlights the need for future studies
+to consider various factors that may impact the performance of
+micro-mobility on the roads and calls for further research to be
+conducted in related fields to provide a more comprehensive
+understanding of the potential impact of micro-mobility.
 
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
