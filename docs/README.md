@@ -98,10 +98,13 @@ To create scenarios, 100 agents were chosen, and because 19% of trips can be tak
 
 | | scenario one | Scenario two  | Scenario three | Scenario four | 
 | ------------- | ------------- | ------------- | ------------- |------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |Content Cell  | 
-
-
+| Number of car agents| 100| 100| 81| 81  |
+| Number of Bicycle agents| 0| 0| 19x2=38 |19x2=38 | 
+| Start time| 6.00am| 6.00 am| 6.00 am| 6.00am|
+| Avg Speed for Link 01| Same speed for all links| 45Kmh| 45Kmh| Same speed for all links|
+| Avg Speed for Link 02| |40Kmh| 40Kmh| |
+| Avg Speed for Link 03| |30Kmh| 40Kmh| |
+| Avg Speed for Link 04| |45Kmh| 45Kmh| |
 ## Experiment Setup and Implementation
 
 ## Results and Analysis
