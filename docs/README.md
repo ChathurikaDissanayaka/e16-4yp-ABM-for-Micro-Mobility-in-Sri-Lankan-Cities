@@ -105,6 +105,7 @@ To create scenarios, 100 agents were chosen, and because 19% of trips can be tak
 | Avg Speed for Link 02| |40Kmh| 40Kmh| |
 | Avg Speed for Link 03| |30Kmh| 40Kmh| |
 | Avg Speed for Link 04| |45Kmh| 45Kmh| |
+
 <!-- ## Experiment Setup and Implementation -->
 
 ## Results and Analysis
