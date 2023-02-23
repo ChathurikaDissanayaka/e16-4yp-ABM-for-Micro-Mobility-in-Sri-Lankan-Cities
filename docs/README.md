@@ -178,10 +178,10 @@ travel time for all passengers. Furthermore, the experiment
 demonstrated an 19% reduction in CO2 emissions, suggesting
 that micro-mobility could be an effective means of reducing
 carbon emissions and improving air quality.
-However, to achieve more realistic results when comparing similar network infrastructures, several factors should be
+However, to achieve more realistic results when comparing similar network infrastructures, several factors should be
 considered. For instance, mixed traffic should be taken into
 account, as different types of vehicles may behave differently
-on the roads, potentially affecting travel time and other outcomes. Parallelly driven vehicles, which vary in width, also
+on the roads, potentially affecting travel time and other outcomes. Parallelly driven vehicles, which vary in width, also
 need to be considered, as they may affect the overall road
 capacity and travel time. Road signs and traffic lights must be
 considered where necessary, as they play an essential role in
@@ -193,7 +193,7 @@ road conditions were represented by reducing the maximum
 speed of the vehicles on the roads. However, future studies
 should capture the full range of road conditions to arrive at
 more accurate results.
-Additionally, in situations where road widening is not feasible, other practical methods must be identified to introduce
+Additionally, in situations where road widening is not feasible, other practical methods must be identified to introduce
 micro-mobility to the current traffic. For example, dedicated
 bicycle lanes can be created on existing roads, or public
 transportation options can be integrated with micro-mobility
@@ -223,7 +223,7 @@ make recommendations to transportation policymakers, such
 as the implementation of dedicated bicycle lanes to reduce
 road traffic congestion.
 Moreover, this research opens doors to many other research
-areas in different fields such as civil engineering, town planning, and social sciences. Based on the findings of this study,
+areas in different fields such as civil engineering, town planning, and social sciences. Based on the findings of this study,
 researchers can further explore topics such as commuters’
 behaviors, mode choice of the commuters, and the impact of
 micro-mobility in situations such as fuel price increases, bus
