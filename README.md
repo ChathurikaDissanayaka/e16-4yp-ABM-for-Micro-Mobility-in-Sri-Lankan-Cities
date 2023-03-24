@@ -60,7 +60,6 @@ To reproduce traffic congestion using MATSim, we need to create a simulation sce
 For the research, we chose Kandy City, Sri Lanka as the case study location. The kandy city is one of the busiest urban areas and experiences a variety of traffic types in Sri Lanka.  The types of traffic that can be seen in Kandy city, Sri Lanka include private vehicles, public transport, pedestrian traffic, tourist traffic, commercial traffic, and two- and three-wheelers. These different types of traffic can contribute to traffic congestion and flow issues, particularly during peak hours. Effective traffic management and transportation planning are important to ensure the smooth flow of traffic in Kandy city.
 To simulate city traffic, a small area of Kandy, including the city center, was chosen.
 
-## oooooooooooooooooooooo
 ### Data:
 Road network data: This includes data on the road layout, geometry, and connectivity in the study area. The road network of Kandy city is obtained from OpenStreetMap including information such as speed limits, one-way streets, and turn restrictions. In the context of transportation modeling with MATSim, OSM data can be used as input to create a detailed network of roads and other transportation infrastructure. This network can be combined with travel demand data and other inputs to simulate transportation systems and analyze traffic flow and congestion.
 
@@ -84,23 +83,23 @@ We replaced the number of cars that travel on non-home-based trips on Kandy city
 According to sources, 17% of trip purposes are Non-home-based other trips (NHBO) and 2% are Non-home-based education trips (NHBE). As a result, 19% of non-home-based trips were taken to replace 19% of cars with bicycles. The number of cars that have been replaced by bicycles is calculated using the Passenger Car Unit(PCU) (/cite). Based on that, one car can be replaced by two cars.
 We created four scenarios for four linked networks in order to introduce parallel bicycle lanes on the city's most congested roads.
 
-## oooooooooo
+
 
 To create scenarios, 100 agents were chosen, and because 19% of trips can be taken as non-based-home trips. The use of the scenarios is defined in the table below. In scenarios one and two, we attempted to run all 100 agents on a single road at the same speed for all links while varying the link speeds to demonstrate the speed variation of the road condition. The agents were given three different time frames in which they were expected to return from their trips. In scenarios three and four, we replaced 19 cars with 38 bicycles while maintaining the same conditions as in the first two scenarios and attempted to figure out how parallel bicycle lanes could be affected in order to reduce traffic congestion and how it could affect policy making.
 
-## tableeeeeeeeeeeeeeeeee
+
 
 ## 4. Results
 In this section, we present the results of simulating the case study in order to identify the real traffic in Kandy city, as well as the four different scenarios that were used to implement parallel bicycle lanes on the most congested roads. 
 We considered the data of the CBD of Knady city as mentioned in the previous section and used 500 car agents to create the current model. To plan the trips of the vehicle agents, four major nodes that people use to enter the city were considered. All agents begin and end their journeys at one of these nodes. It essentially depicts how the car agents move through the city. The simulation can be used to track the most congested roads as well as the duration of the traffic jam.
 We observed the most congested links for starting and returning trips after running the simulation 100 times, as shown in the figures
-## ooooooooooo
+
 
 Links that are highly saturated are shown in red(10% of the sample data) and medium saturated are in yellow. However, it is observed that these are not congested links, as the actual traffic volume in these cases may be much lower or higher than the actual free flow capacity. The visualization shows where large numbers of vehicles are moving in the network with the additional width setting based on the absolute volume. In MATSim, vehicles typically travel very close to the free-flow speed, unless there are more vehicles on a link than the flow capacity allows for. In such cases, the vehicles are held back in MATSim, resulting in a longer travel time on that link and thus a lower speed. 
 
 Following the identification of congested roads, the next step is to introduce parallel bicycle lanes to those congested roads. These are the results obtained by simulating the four scenarios 1000 times in the MATSim tool.
 
-## tableeeeeeeeeeeeeeee
+
 
 The CO2 emissions are calculated using the tool (), assuming that each car runs on petrol.The following calculations show how co2 is calculated for car agents traveling on the one-link network that is used for scenarios in order to compare the benefit over the environment.
 - CO2 emission per car =   0.001t 
